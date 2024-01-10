@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/UI/Footer/Footer';
+import Navigation from './components/UI/navigation/Navigation';
+import ScrollNavigation from './components/UI/scrollnav/ScrollNavigation';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {RouteInPages, IndividualPages } from './components/UI/router/index'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+          <Navigation />
+          <ScrollNavigation />
+        <Routes>
+          {RouteInPages.map(route => 
+            <Route key={route.path} path={route.path} element={<route.component />} exact={route.exact}/>  
+          )}
+        </Routes>
+
+
+        <Routes>
+          {IndividualPages.map(route => 
+            <Route key={route.path} path={route.path} element={<route.component />} exact={route.exact}/>  
+          )}
+
+        </Routes>
+      </Router>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,115 @@
+.GetInTouchContainer {
+    width: 1450px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+    position: relative;
+}
+
+.GetInTouchSection {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoSection {
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infoSection h1 {
+    color: #151515;
+    font-family: Eastman;
+    font-size: 104px;
+    font-weight: 800;
+    line-height: 100px;
+}
+
+.infoSection p {
+    color: #000;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 2px 16px;
+    border: 3px solid #000;
+    border-radius: 16px;
+}
+
+.elit {
+    position: absolute;
+    bottom: 88px;
+    left: 116px;
+    transform: rotate(-17.5deg);
+}
+
+.phoneNumber {
+    position: absolute;
+    left: 300px;
+    bottom: 28px;
+    transform: rotate(17deg);
+}
+
+.mailSection {
+    position: absolute;
+    bottom: 0px;
+}
+
+.GetInTouchOutInput {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.GetInTouchOutInput input {
+    width: 100%;
+    padding: 20px 10px;
+    border: none;
+    border-bottom: 2px solid #4444444D;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25.6px;
+}
+
+.GetInTouchOutInput input:focus {
+    border: none;
+}
+
+.GetInTouchOutInput button {
+    cursor: pointer;
+    border: none;
+    float: right;
+    border-radius: 20px;
+    background: #FFCE1B;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    padding: 2px 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50.4px;
+    transition: .4s;
+}
+
+.GetInTouchOutInput button:hover {
+    background-color: #000;
+    border-radius: 10px;
+    color: #FFCE1B;
+}
+
+.inputSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

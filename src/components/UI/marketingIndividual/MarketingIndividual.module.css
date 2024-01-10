@@ -1,0 +1,227 @@
+.backgroundIndividual {
+    width: 100%;
+    background: #000;
+    border-radius: 40px;
+    min-height: 350px;
+    padding: 50px 0 30px;
+    margin-top: 30px;
+}
+
+.allContent {
+    width: 100%;
+    overflow: hidden;
+}
+
+.titleAndPictureContainer {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titleContainer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleContainer h1 {
+    color: #FFCE1B;
+    font-family: Eastman;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.titleContainer p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.individualPicture {
+    background-image: url('./assets/marketing.png');
+    width: 550px;
+    height: 430px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+}
+
+.individualComment {
+    width: 1300px;
+    margin: 100px auto 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.individualComment p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    border: 2px solid #fff;
+    padding: 2px 20px;
+    border-radius: 16px;
+}
+
+.rightPicSection {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 80px auto;
+}
+
+.rightTitleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rightTitleSection h1 {
+    color: #FFCE1B;
+    font-family: Eastman;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.rightDataPharagraph {
+    text-align: start;
+    color: #A4A4A4;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    padding-bottom: 30px;
+}
+
+.rightTitleInfo {
+    text-align: left;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.leftPicSection {
+    width: 1300px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.titleSection h1{
+    color: #FFCE1B;
+    text-align: right;
+    font-family: Eastman;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120.5%;
+}
+
+.dataPharagraph {
+    color: #A4A4A4;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    padding-bottom: 30px;
+}
+
+.titleInfo {
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.leftPicture {
+    background-image: url('./assets/hundred.png');
+    width: 650px;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+}
+
+.rightPictureOne {
+    background-image: url('./assets/arter.png');
+    width: 650px;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+}
+
+.rightPictureTwo {
+    background-image: url('./assets/hlf.png');
+    width: 650px;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+}
+
+.leftPictureOne {
+    background-image: url('./assets/artfood.png');
+    width: 650px;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 16px;
+}
+
+.leftIndContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.leftIndContainer button {
+    color: #151515;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    background-color: #FFCE1B;
+    border: none;
+    padding: 2px 20px;
+    border-radius: 25px;
+}

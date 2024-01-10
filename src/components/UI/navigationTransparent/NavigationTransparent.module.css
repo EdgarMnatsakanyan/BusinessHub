@@ -1,0 +1,82 @@
+.business_navigation {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1450px;
+}
+
+.page_name {
+    background-image: url('./assets/namePage.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 215px;
+    height: 35px;
+    transition: .2s;
+}
+
+.page_name:hover {
+    background-image: url('./assets/namePageHover.svg');
+}
+
+.menu_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_menuList {
+    list-style-type: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    transition: .2s;
+    cursor: pointer;
+    padding-top: 14px;
+}
+
+.nav_menuList:hover {
+    color: #FFCE1B;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn_navigation {
+    cursor: pointer;
+    padding: 1px 16px;
+    border-radius: 20px;
+    background-color: #FFCE1B;
+    border: none;
+    color: #151515;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    transition: .4s;
+    line-height: 40px;
+}
+
+.btn_navigation:hover{
+    color: #FFCE1B;
+    border-radius: 10px;
+    background-color: #151515;
+}
+
+.active {
+    list-style-type: none;
+    color: #FFCE1B;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    padding-top: 14px;
+}

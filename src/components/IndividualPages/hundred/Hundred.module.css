@@ -1,0 +1,236 @@
+.containerAllSections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hundredLogoImg {
+    position: relative;
+    top: -125px;
+    background-image: url(./assets/logoHundred.jpg);
+    background-position: center center;
+    width: 100%;
+    height: 650px;
+    border-radius: 0 0 40px 40px;
+}
+
+.hundredContainer {
+    max-width: 1300px;
+}
+
+.aboutPage {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 80px;
+}
+
+.dataPage {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+.namePage {
+    color: #151515;
+    font-family: Eastman;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+.TagsPage {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.TagsPage p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38.4px;
+    border: 2px solid #000;
+    padding: 1px 20px;
+    border-radius: 16px;
+}
+
+.FAQPage {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.linkPage {
+    color: #151515;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.pictureContainer {
+    width: 1300px;
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.pictureOne {
+    background-image: url(./assets/NotePad.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    border-radius: 16px;
+    width: 100%;
+    height: 750px;
+}
+
+.pictureTwo {
+    background-image: url(./assets/pencilAndNote.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 650px;
+}
+
+.pictureThree {
+    background-image: url(./assets/Caps.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 650px;
+}
+
+.WhatADoThispage {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.WhatADoTitle {
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.ParagraphSection {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.ParagraphSection p {
+    width: 650px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.anyPictures {
+    display: flex;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.pictureFive {
+    background-image: url(./assets/Gifts.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 550px;
+}
+
+.pictureSix {
+    background-image: url(./assets/financialAnalyst.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 550px;
+}
+
+.pictureSeven {
+    background-image: url(./assets/AboutNarek.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 550px;
+}
+
+.pictureEight {
+    background-image: url(./assets/EnvelopeU.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 700px;
+    margin: 30px 0;
+}
+
+.pictureNine {
+    background-image: url(./assets/fromRawPixel.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 750px;
+}
+
+.pictureTeen {
+    background-image: url(./assets/WhyToChoose.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 600px;
+}
+
+.pictureIleven {
+    background-image: url(./assets/pencilAndNote.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    width: 100%;
+    height: 600px;
+}
+
+.lineBar {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    border-radius: 40px 40px 0 0;
+}

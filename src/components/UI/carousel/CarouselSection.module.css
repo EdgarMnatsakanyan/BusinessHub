@@ -1,0 +1,67 @@
+.carouselContaienr {
+    width: 100%;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+.CarouselBarContaienr {
+    width: 100%;
+}
+
+.luxioBor {
+    background-image: url('./assets/LuxioBor.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.luxioLight {
+    background-image: url('./assets/LuxioLight.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.luxioManikyur {
+    background-image: url('./assets/LuxioManikyur.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.luxioWm {
+    background-image: url(./assets/LuxioWm.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.luxioGrich {
+    background-image: url('./assets/LxuioGrich.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.sliderContainer {
+    margin-right: 50px;
+}
+
+.carouselTitleSection {
+    color: #151515;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 50px 0;
+}

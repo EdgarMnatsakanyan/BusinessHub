@@ -1,0 +1,62 @@
+.sliderContainer {
+    background-color: #000;
+    width: 100%;
+    padding: 50px;
+}
+
+.allContainer {
+    width: 600px!important;
+    display: flex!important;
+    flex-direction: column;
+}
+
+.projectsTitleSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.projectsTitleSection h1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38.4px;
+}
+
+
+.projectsTitleSection p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+.commentSection {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.commentSection p {
+    color: #fff;
+    border: 2px solid #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    border-radius: 16px;
+    padding: 2px 20px;
+}
+
+.Picture {
+    border-radius: 16px;
+    width: 600px;
+    height: 400px;
+}

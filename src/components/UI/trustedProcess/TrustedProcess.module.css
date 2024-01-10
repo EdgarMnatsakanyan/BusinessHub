@@ -1,0 +1,53 @@
+.trustedProcessContianer {
+    width: 100%;
+    background-color: #000;
+    border-radius: 0 0 40px 40px;
+}
+
+.trustedProcessAllSection {
+    background-color: #fff;
+    width: 1200px;
+    margin: 50px auto;
+    border-radius: 30px;
+    padding: 50px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.titleContainer h1 {
+    color: #151515;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.picture {
+    background-image: url('./assets/LeranMoreBlack_Default.png');
+    background-size: 80%;
+    width: 200px;
+    height: 45px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.picture:hover {
+    background-image: url('./assets/LearnMore_Hover.png');
+}
+
+.ThisPicture {
+    width: 350px;
+    height: 350px;
+    background-color: #FFCE1B;
+    border-radius: 30px;
+}
