@@ -9,6 +9,11 @@
     src: url(../public/Fonts/EastmanAlternateTrial-Regular.otf);
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url(../public/Fonts/Montserrat-Regular.ttf);
+}
+
 .HeaderAllSection {
     display: flex;
     justify-content: center;

@@ -3,14 +3,14 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import cl from './SlideBar.module.css';
-import { getSlidePosts, slidePostsFilter } from '../services/Services';
+import { getSlidePosts, slidePostsFilter } from './data';
 
 
 const SlideBar = () => {
   const [filterType, setFilterType] = useState("");
 
     const filterPosts = useMemo(() => {
-        const filteredPosts = filterType !== "" ? slidePostsFilter(filterType) : getSlidePosts();
+        const filteredPosts = filterType ? slidePostsFilter(filterType) : getSlidePosts();
         return filteredPosts
     }, [filterType])
 

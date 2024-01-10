@@ -1,3 +1,4 @@
+
 export const postsSlide = [
     {
         id: 1,
@@ -11,7 +12,7 @@ export const postsSlide = [
     },
     {
         id: 2,
-        url: "./assets/artfood.png",
+        url: "./assets/Artfood.png",
         title: "Artfood",
         data: "From 2018",
         comment: {
@@ -21,7 +22,7 @@ export const postsSlide = [
     },
     {
         id: 3,
-        url: "./assets/arter.png",
+        url: "./assets/Arter.png",
         title: "Arter",
         data: "2022",
         comment: {
@@ -31,7 +32,7 @@ export const postsSlide = [
     },
     {
         id: 4,
-        url: "./assets/hlf.png",
+        url: "./assets/HLF.png",
         title: "HLF",
         data: "2022",
         comment: { 
@@ -40,3 +41,14 @@ export const postsSlide = [
         }
     }
 ]
+
+
+export function slidePostsFilter (postTypeSlide) {
+    let slidePostsFilter = getSlidePosts().filter(type => type.valuePost === postTypeSlide)
+    return slidePostsFilter;
+}
+
+export function getSlidePosts() {
+    const slidePosts = postsSlide;
+    return slidePosts;
+}
